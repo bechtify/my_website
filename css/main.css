@@ -1,47 +1,81 @@
-html, body {
+body, html {
   height: 100%;
-  margin: 0;
+  background-color: black;
 }
 
-.div1{
-  position: relative;
-  border-color: white;
-  border-style: solid;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  z-index: 1;
+* {
+  box-sizing: border-box;
 }
 
-.background1{
+.bg-image {
+  /* The image used */
+  background-image: url("../img/hintergrund.jpg");
+
+  /* Add the blur effect */
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-family: Papyrus;
+  border: 3px solid #f1f1f1;
   position: absolute;
-  border-color: white;
-  border-style: solid;
-  background-image: url("../architecture.jpg");
-  opacity: 0.5;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 
-.heading{
-  margin-top: 10%;
-  color:black;
-  opacity: 1;
-  font-family: Helvetica, Serif, sans-serif;
-  font-size: 40px;
+.p{
+ font-size: 30px;
 }
 
-.div2{
-  color:black;
-  height: 100%;
+.wrapper {<!--   w  w w.  ja v  a  2s  .  com-->
+  max-width: 400px;
+  background: transparent;
+  height: auto;
   width: 100%;
+  font-size: 500%;
+  text-align: right;
+  position: absolute;
+  bottom: 48%;
+  z-index: 3;
+}
+
+.marquee {
+  background: white;
+  white-space: nowrap;
+  -webkit-animation: rightThenLeft 4s linear;
+  -webkit-animation-iteration-count: infinite;
+  z-index: 4;
+}
+
+@-webkit-keyframes rightThenLeft { 
+   0% {margin-right: 0;}
+   50%{margin-right:100%;}
+   100%{margin-right:0;}
 }
 
 .downArrow{
-  position: fixed;
-  bottom: 45%;
-  left: 50%;
+  position: absolute;
+  bottom: 48%;
+  margin-left: 49%;
 }
 .bounce {
   -moz-animation: bounce 3s infinite;

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="321748fb-f099-433b-af58-4dcff7b7199f" name="Default Changelist" comment="Background">
-      <change afterPath="$PROJECT_DIR$/architecture.jpg" afterDir="false" />
+    <list default="true" id="321748fb-f099-433b-af58-4dcff7b7199f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/MIS_8826-Setzpfandt2.jpg_2017142212_bw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Temple-of-Saturn-ruins-Rome-Roman-Forum_bw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/UMBuhZ_bw.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/architecture.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +29,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/exhibitly" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\D070440\WebstormProjects\my_website\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\D070440\WebstormProjects\my_website\img" />
       <recent name="C:\Users\D070440\WebstormProjects\my_website" />
     </key>
   </component>
@@ -64,7 +73,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586457957420</updated>
-      <workItem from="1586457958548" duration="7334000" />
+      <workItem from="1586457958548" duration="7968000" />
+      <workItem from="1590333471579" duration="657000" />
+      <workItem from="1590334586548" duration="8280000" />
+      <workItem from="1590401537906" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="Test Commit">
       <created>1586499044215</created>
@@ -87,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586500059675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Background">
+      <created>1586503817489</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586503817489</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +117,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
